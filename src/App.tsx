@@ -4,6 +4,7 @@ import './styles/global.css'
 import { Heading } from './components/Heading';
 import { Container } from './components/Container';
 import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
 
 function App() {
     return (
@@ -13,7 +14,7 @@ function App() {
           </Container>
 
           <Container>
-            <Heading> ICONS </Heading>
+            <Menu />
           </Container>
 
           <Container>
